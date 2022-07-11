@@ -149,6 +149,7 @@ body {
 }
 
 /*hero*/
+
 .hero {
    background-color: var(--gray-bd-test);
    text-align: center;
@@ -176,6 +177,7 @@ body {
    margin-top: 45px;
 }
 
+
 /*Section*/
 .section p {
    color: var(--secondary-text-color);
@@ -186,6 +188,10 @@ body {
    line-height: 1.2;
    text-align: center;
 }
+
+/* Hidden section*/
+
+
 /*Benefits*/
 .container-benefits{
    justify-content: space-around;
