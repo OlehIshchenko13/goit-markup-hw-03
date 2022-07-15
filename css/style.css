@@ -160,11 +160,13 @@ body {
 
 /*HERO*/
 
-.hero {
+.hero.section {
    display: flex;
    background-color: var(--gray-bd-test);
    justify-content: center;
    align-items: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
    
 }
 .container-hero {
