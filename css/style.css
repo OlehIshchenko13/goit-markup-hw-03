@@ -27,7 +27,6 @@ html {
    width: 1200px;
    padding: 0 15px;
    margin: 0 auto;
-   
 }
 h1,
 h2,
@@ -97,6 +96,8 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 .nav-menu {
    align-items: center;
@@ -133,13 +134,12 @@ body {
 }
 
 /*nav-contacts*/
-.contacts-nav-header{
+.contacts-nav-header {
    display: flex;
    column-gap: 30px;
 }
 .contacts-nav {
    list-style-type: none;
-   
 }
 .contacts-nav > .item {
    padding: 14px 0;
@@ -195,7 +195,10 @@ body {
 }
 
 /*Section*/
-
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 .section p {
    color: var(--secondary-text-color);
 }
@@ -208,7 +211,7 @@ body {
 
 /*BENEFITS*/
 .benefits-section {
-   padding-top: 94px;
+   padding-bottom: 0;
 }
 .container-benefits {
 }
@@ -231,8 +234,6 @@ body {
 }
 /* ABOUT */
 .section-about {
-   padding-top: 94px;
-   padding-bottom: 94px;
 }
 
 .about-container {
@@ -248,8 +249,6 @@ body {
 /*TEAM*/
 .section-team {
    background-color: var(--gray-bg-section);
-   padding-top: 94px;
-   padding-bottom: 94px;
 }
 .container-team {
 }
@@ -284,29 +283,31 @@ body {
    text-align: center;
 }
 /*PORTFOLIO*/
-.section-portfolio{
-   padding-top: 94px;
-   padding-bottom: 94px;
+.section-portfolio {
 }
-.list-button{
+.list-button {
    display: flex;
    justify-content: center;
    column-gap: 30px;
 }
-.button-item{
-
+.button-item {
 }
 .portfolio {
    background-color: var(--white-text);
    width: 370px;
    height: 404px;
-   
 }
-.portfolio-list{
+.portfolio-list {
    display: flex;
    flex-wrap: wrap;
-   column-gap: 30px;
-   margin-top: 56px ;
+   gap: 30px;
+   margin-top: 56px;
+}
+.portfolio-info {
+   padding-left: 20px;
+   border-left: 1px solid #eeeeee;
+   border-right: 1px solid #eeeeee;
+   border-bottom: 1px solid #eeeeee;
 }
 .portfolio-button {
    cursor: pointer;
@@ -344,8 +345,6 @@ body {
 
 .portfolio-example {
    text-decoration: none;
-   
-   
 }
 .portfolio-header {
    color: var(--primary-text-color);
@@ -360,6 +359,7 @@ body {
    font-size: var(--secondary-font-size);
    line-height: 1.9;
    margin-top: 4px;
+   padding-bottom: 30px;
 }
 /*Hidden header*/
 .hidden-header {
@@ -386,7 +386,6 @@ body {
    background-color: var(--gray-bd-test);
    padding-top: 60px;
    padding-bottom: 60px;
-
 }
 
 .footer .address {
@@ -398,9 +397,7 @@ body {
 .footer .link-footer {
    color: rgba(255, 255, 255, 0.6);
 }
-.container-footer{
-   
+.container-footer {
 }
-.contacts-nav-footer{
-
+.contacts-nav-footer {
 }
