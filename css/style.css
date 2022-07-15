@@ -165,7 +165,7 @@ body {
    background-color: var(--gray-bd-test);
    justify-content: center;
    align-items: center;
-   min-height: 600px;
+   
 }
 .container-hero {
    display: flex;
