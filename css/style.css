@@ -80,8 +80,6 @@ body {
    line-height: 1.2;
    color: var(--primary-text-color);
    text-decoration: none;
-
-   padding: 14px 0;
 }
 .logo .accent {
    color: var(--accent-color);
@@ -96,8 +94,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   border-bottom: 1px solid #ECECEC;
 }
 .nav-menu {
    align-items: center;
@@ -119,7 +116,9 @@ body {
 
    line-height: 1.1;
    letter-spacing: var(--secondary-letter-spacing);
-   padding: 14px 0;
+
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -142,7 +141,6 @@ body {
    list-style-type: none;
 }
 .contacts-nav > .item {
-   padding: 14px 0;
 }
 
 .contacts-nav .link {
@@ -152,6 +150,10 @@ body {
    padding: 10px 0;
    line-height: 1.1;
    letter-spacing: var(--secondary-letter-spacing);
+
+   display: block;
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
@@ -191,6 +193,7 @@ body {
    font-size: var(--secondary-font-size);
    line-height: 1.9;
    border-radius: 4px;
+   border: none;
    min-width: 200px;
    padding: 10px 32px;
 }
@@ -240,9 +243,10 @@ body {
 .about-container {
 }
 .about-title {
+   margin-bottom: 50px;
 }
 .about-list {
-   margin-top: 50px;
+   
    justify-content: space-between;
    display: flex;
 }
@@ -269,12 +273,14 @@ body {
       0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
 }
-
+.team-info {
+   padding: 30px 7px 30px 7px;
+}
 .team-member-name {
    font-weight: 500;
    font-size: var(--secondary-font-size);
    line-height: 1.2;
-   margin-top: 30px;
+
    text-align: center;
 }
 .team-member-title {
@@ -289,9 +295,10 @@ body {
 .list-button {
    display: flex;
    justify-content: center;
-   column-gap: 30px;
+   column-gap: 8px;
 }
 .button-item {
+   
 }
 .portfolio {
    background-color: var(--white-text);
@@ -305,7 +312,7 @@ body {
    margin-top: 56px;
 }
 .portfolio-info {
-   padding-left: 20px;
+   padding: 24px 20px;
    border-left: 1px solid #eeeeee;
    border-right: 1px solid #eeeeee;
    border-bottom: 1px solid #eeeeee;
@@ -317,6 +324,7 @@ body {
    font-size: var(--secondary-font-size);
    line-height: 1.6;
    text-align: center;
+   padding: 6px 22px ;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -354,13 +362,13 @@ body {
    line-height: 2;
 
    letter-spacing: 0.06em;
-   margin-top: 20px;
+   
 }
 .portfolio-text {
    font-size: var(--secondary-font-size);
    line-height: 1.9;
    margin-top: 4px;
-   padding-bottom: 30px;
+   
 }
 /*Hidden header*/
 .hidden-header {
@@ -396,9 +404,17 @@ body {
    margin-top: 20px;
 }
 .footer .link-footer {
+   display: block;
    color: rgba(255, 255, 255, 0.6);
+   padding: 0;
+   
 }
+ 
 .container-footer {
 }
-.contacts-nav-footer {
+.futter-items{
+   margin-bottom: 9px;
+}
+.futter-items:lastchild {
+   margin-bottom: 0px;
 }
