@@ -90,11 +90,14 @@ body {
 /* ----------------HEADER------------- */
 
 /*nav-site*/
+.page-header{
+   border-bottom: 1px solid #ECECEC;
+}
 .container-header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-bottom: 1px solid #ECECEC;
+   
 }
 .nav-menu {
    align-items: center;
